@@ -5,34 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 188.114.97.8
-  port: 8443
+  server: 188.114.97.6
+  port: 443
   udp: true
   type: vless
-  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
+  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
   tls: true
-  servername: cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv
+  servername: courses.mftplus.qzz.io
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
+      Host: courses.mftplus.qzz.io
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev
-  port: 443
+  server: 188.114.97.6
+  port: 8080
   udp: true
   type: vless
-  uuid: d8c14c5c-a80a-4f6f-a5fb-52071849c443
-  tls: true
-  servername: cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev
-  skip-cert-verify: false
+  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiZTFWRGJFS0NUd2F2NkRmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
+    path: /vl/ERYN0G44hia16zhR
     headers:
-      Host: cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev
+      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

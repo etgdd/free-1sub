@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "188.114.97.8",
-      "server_port": 8443,
-      "uuid": "d4d2d3f3-9dec-4e8f-8daf-145ecac96e66",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "b9ede7a5-5b4b-4aee-ac37-2c307e587e47",
       "tls": {
         "enabled": true,
-        "server_name": "cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv",
+        "server_name": "courses.mftplus.qzz.io",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,33 +20,23 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "path": "/eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
         "headers": {
-          "Host": "crimson-leaf-7e45.hzhduuebfjdcb.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+          "Host": "courses.mftplus.qzz.io"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev",
-      "server_port": 443,
-      "uuid": "d8c14c5c-a80a-4f6f-a5fb-52071849c443",
-      "tls": {
-        "enabled": true,
-        "server_name": "cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
-      },
+      "server": "188.114.97.6",
+      "server_port": 8080,
+      "uuid": "527451fe-ee1f-4e6f-94ca-808f055f7c9b",
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiZTFWRGJFS0NUd2F2NkRmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ",
+        "path": "/vl/ERYN0G44hia16zhR",
         "headers": {
-          "Host": "cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev"
+          "Host": "05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev"
         }
       }
     },

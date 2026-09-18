@@ -6,31 +6,26 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 2053,
-      "uuid": "d4d2d3f3-9dec-4e8f-8daf-145ecac96e66",
-      "tls": {
-        "enabled": true,
-        "server_name": "crimson-leaf-7e45.hzhduuebfjdcb.workers.dev",
-        "insecure": false
-      },
+      "server": "www.speedtest.net",
+      "server_port": 80,
+      "uuid": "7201b2cd-0675-4c1a-9c76-07ca14ffcf08",
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "path": "/eyJqdW5rIjoiTlZxbGYyajQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
         "headers": {
-          "Host": "crimson-leaf-7e45.hzhduuebfjdcb.workers.dev"
+          "Host": "6crihfknlqjdu3yuzco9phspq86dbp6q.christanmoccasin.workers.dev"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 02 - xiaohe",
-      "server": "104.21.16.109",
+      "server": "104.21.67.236",
       "server_port": 443,
-      "uuid": "cc08d2d0-8a7a-4469-81d2-c43704451271",
+      "uuid": "96e341a7-3077-4613-b482-41bd9c90cc4d",
       "tls": {
         "enabled": true,
-        "server_name": "9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev",
+        "server_name": "ezaccess-project-4c7950.ez-dc9bbb.workers.dev",
         "insecure": false,
         "alpn": [
           "http/1.1"
@@ -42,9 +37,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/eAPLi7f3K97BkphmbapSZYUkfFFwpZT?ed=2560",
+        "path": "/eyJqdW5rIjoiN2w4dDlRNVV5NkZ5NU1aeSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
         "headers": {
-          "Host": "9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev"
+          "Host": "ezaccess-project-4c7950.ez-dc9bbb.workers.dev"
         }
       }
     },
