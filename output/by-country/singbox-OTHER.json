@@ -6,55 +6,55 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.16.10.185",
+      "server": "172.67.153.156",
       "server_port": 443,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray.simspeedup.com",
-        "insecure": false
+        "server_name": "ccs2g.pai50288.uk",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/ws",
+        "path": "/pai50288",
         "headers": {
-          "Host": "v2ray.simspeedup.com"
+          "Host": "ccs2g.pai50288.uk"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.16.10.185",
+      "server": "104.21.70.228",
       "server_port": 443,
-      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
       "tls": {
         "enabled": true,
-        "server_name": "cfvvv-ev1.pages.dev",
+        "server_name": "u.srilankangrill.online",
         "insecure": false
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "cfvvv-ev1.pages.dev"
+          "Host": "u.srilankangrill.online"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "104.16.10.185",
+      "server": "104.21.70.228",
       "server_port": 443,
       "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "tls": {
         "enabled": true,
         "server_name": "cfvvv-ev1.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       },
       "transport": {
         "type": "ws",
@@ -67,12 +67,12 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 04 - xiaohe",
-      "server": "104.16.10.185",
+      "server": "104.21.70.228",
       "server_port": 443,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "tls": {
         "enabled": true,
-        "server_name": "fx3h2kf8xn.fx6hsv0.ccwu.cc",
+        "server_name": "cfvvv-ev1.pages.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -81,47 +81,47 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560",
+        "path": "/",
         "headers": {
-          "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
+          "Host": "cfvvv-ev1.pages.dev"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 05 - xiaohe",
-      "server": "104.16.10.185",
+      "server": "104.21.70.228",
       "server_port": 443,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "tls": {
         "enabled": true,
-        "server_name": "fx3h2kf8xn.fx6hsv0.ccwu.cc",
+        "server_name": "cfvvv-ev1.pages.dev",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560",
+        "path": "/",
         "headers": {
-          "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
+          "Host": "cfvvv-ev1.pages.dev"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 06 - xiaohe",
-      "server": "104.16.10.185",
+      "server": "104.18.26.90",
       "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
+        "server_name": "u.srilankangrill.online",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/tyxyws",
+        "path": "/",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "u.srilankangrill.online"
         }
       }
     },

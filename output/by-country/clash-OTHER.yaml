@@ -5,35 +5,36 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.16.10.185
+  server: 172.67.153.156
   port: 443
   udp: true
   type: vless
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
   tls: true
-  servername: v2ray.simspeedup.com
+  servername: ccs2g.pai50288.uk
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /ws
+    path: /pai50288
     headers:
-      Host: v2ray.simspeedup.com
+      Host: ccs2g.pai50288.uk
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 104.16.10.185
+  server: 104.21.70.228
   port: 443
   udp: true
   type: vless
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   tls: true
-  servername: cfvvv-ev1.pages.dev
+  servername: u.srilankangrill.online
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: cfvvv-ev1.pages.dev
+      Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 03 - xiaohe
-  server: 104.16.10.185
+  server: 104.21.70.228
   port: 443
   udp: true
   type: vless
@@ -41,55 +42,54 @@ proxies:
   tls: true
   servername: cfvvv-ev1.pages.dev
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
       Host: cfvvv-ev1.pages.dev
 - name: 🌐 其他地区 (Other) 04 - xiaohe
-  server: 104.16.10.185
+  server: 104.21.70.228
   port: 443
   udp: true
   type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  servername: cfvvv-ev1.pages.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+      Host: cfvvv-ev1.pages.dev
 - name: 🌐 其他地区 (Other) 05 - xiaohe
-  server: 104.16.10.185
+  server: 104.21.70.228
   port: 443
   udp: true
   type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  servername: cfvvv-ev1.pages.dev
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+      Host: cfvvv-ev1.pages.dev
 - name: 🌐 其他地区 (Other) 06 - xiaohe
-  server: 104.16.10.185
+  server: 104.18.26.90
   port: 443
   udp: true
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   tls: true
-  servername: jp3.yohototo.top
+  servername: u.srilankangrill.online
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: u.srilankangrill.online
 proxy-groups:
 - name: PROXIES
   type: select
