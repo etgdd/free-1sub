@@ -1,0 +1,66 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "188.114.96.0",
+      "server_port": 443,
+      "uuid": "20836693-ea23-4f40-a1e7-48a6da897917",
+      "tls": {
+        "enabled": true,
+        "server_name": "netra-85a0ca.shoameni19.workers.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vl/VKec4m2dLHFngRv9xsOhnj9ZLjotNh?ed=2560",
+        "headers": {
+          "Host": "netra-85a0ca.shoameni19.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇶 IQ 02 - xiaohe",
+      "server": "104.21.87.238",
+      "server_port": 8080,
+      "uuid": "8f53fce2-6c17-4e37-9ae9-d969fd85117c",
+      "transport": {
+        "type": "ws",
+        "path": "/vl/Wp4FqWLcoYNYXCovu4?ed=2560",
+        "headers": {
+          "Host": "api-hub-c9a393.alimirzai539-484.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇶 IQ 01 - xiaohe",
+        "🇮🇶 IQ 02 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇶 IQ 01 - xiaohe",
+        "🇮🇶 IQ 02 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
