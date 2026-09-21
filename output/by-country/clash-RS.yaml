@@ -4,28 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇪 比利时 (Belgium) 01 - xiaohe
-  server: 172.67.155.136
-  port: 2086
+- name: 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
+  server: 8.34.70.30
+  port: 8880
   udp: true
   type: vless
-  uuid: 73796e63-0000-4000-8000-000000000007
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   ws-opts:
-    path: '/sync '
+    path: /
     headers:
-      Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+      Host: vms.lifetime09.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
 rules:
 - MATCH,PROXIES
