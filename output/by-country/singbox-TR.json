@@ -6,14 +6,10 @@
     {
       "type": "vmess",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "206.1.97.212",
-      "server_port": 28351,
-      "uuid": "Nitro_Skybot@",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
+      "server": "103.215.218.158",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
     },
     {
       "type": "vless",
@@ -27,7 +23,7 @@
         "server_name": "www.datadoghq.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
