@@ -4,8 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+      "server": "45.131.6.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime61.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe",
       "server": "89.39.161.157",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -22,14 +36,6 @@
           "Host": "aksai.org"
         }
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe",
-      "server": "zfd-boardv2.kunlun01dns.com",
-      "server_port": 16314,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
     },
     {
       "type": "selector",

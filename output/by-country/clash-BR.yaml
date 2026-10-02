@@ -5,6 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  server: 45.131.6.30
+  port: 8880
+  udp: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime61.workers.dev
+- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
   server: 89.39.161.157
   port: 443
   udp: true
@@ -20,14 +31,6 @@ proxies:
     path: /linkvws
     headers:
       Host: aksai.org
-- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  server: zfd-boardv2.kunlun01dns.com
-  port: 16314
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select

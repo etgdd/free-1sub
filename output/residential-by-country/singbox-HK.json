@@ -4,8 +4,20 @@
   },
   "outbounds": [
     {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+      "server": "6dd24f6b-tm96o0-tnggms-6gn6.hk3.hyhuawei.com",
+      "server_port": 443,
+      "password": "c12f73f6-e8c7-11ed-9246-f23c9164ca5d",
+      "tls": {
+        "enabled": true,
+        "server_name": "6dd24f6b-tm96o0-tnggms-6gn6.hk3.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe",
       "server": "zfd-hkv2.kunlun01dns.com",
       "server_port": 16115,
       "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
@@ -13,26 +25,35 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-      "server": "bff4b219-tmkao0-tnnrly-g43g.hk3.hyhuawei.com",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
+      "server": "0d6ed79d-tlsio0-u4ai7k-z7a1.nw4.hyhuawei.com",
       "server_port": 443,
-      "password": "6ddb6a68-d5f5-ca30-3943-cf0c9876d50c",
+      "password": "3bd247a8-993e-11ec-a8bf-f23c91cfbbc9",
       "tls": {
         "enabled": true,
-        "server_name": "bff4b219-tmkao0-tnnrly-g43g.hk3.hyhuawei.com",
+        "server_name": "0d6ed79d-tlsio0-u4ai7k-z7a1.nw4.hyhuawei.com",
         "insecure": true
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
-      "server": "44577f17-tm96o0-tne5x4-1rfon.nw4.hyhuawei.com",
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
+      "server": "t4.qifei.app",
       "server_port": 443,
-      "password": "aed1cc24-351d-11ef-ba52-f23c9164ca5d",
+      "uuid": "b98d4c6e-6770-4a31-8256-a4750cdea0e7",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "44577f17-tm96o0-tne5x4-1rfon.nw4.hyhuawei.com",
-        "insecure": false
+        "server_name": "s3.ap-east-1.amazonaws.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo",
+          "short_id": "1a"
+        }
       }
     },
     {
@@ -40,18 +61,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
