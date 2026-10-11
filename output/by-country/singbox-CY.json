@@ -14,7 +14,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -26,21 +26,42 @@
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe",
-      "server": "5.253.28.240",
-      "server_port": 40443,
-      "uuid": "405b964e-a2d2-454f-aaaa-711cc218897c",
+      "server": "45.86.60.79",
+      "server_port": 8443,
+      "uuid": "8c617ef3-e055-51eb-853f-118cd0560c43",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "ee.illusion-vpn.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KBEhIK-ogl2JAF5Z1A7inIgiW26rcrgxEbWUCfgs6Uk",
+          "short_id": "0ca3deb0d87b27c0"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
+      "server": "185.166.154.111",
+      "server_port": 443,
+      "uuid": "91d734be-a3d0-4d50-83ab-74cf7b6966fa",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.bulkavpn.top",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0",
-          "short_id": "88b6"
+          "public_key": "bQZcMViJWXus9rMSTOa-ZAaUJC0mIlPx7XmzrLp8GQU",
+          "short_id": "94f32cfc"
         }
       }
     },
@@ -50,7 +71,8 @@
       "outbounds": [
         "auto",
         "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe",
-        "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe",
+        "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe"
       ]
     },
     {
@@ -58,7 +80,8 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe",
-        "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe",
+        "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
