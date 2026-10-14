@@ -6,9 +6,9 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "undef.network",
+      "server": "172.67.133.118",
       "server_port": 2052,
-      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
+      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
       "transport": {
         "type": "ws",
         "path": "/@BlueKnight_net--@BlueKnight_net",
@@ -20,107 +20,109 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.21.91.234",
-      "server_port": 2052,
-      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
+      "server": "104.18.26.90",
+      "server_port": 443,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray.simspeedup.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "path": "/ws",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "v2ray.simspeedup.com"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "hikvision-plus.com",
-      "server_port": 2052,
-      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
+      "server": "104.18.26.90",
+      "server_port": 443,
+      "uuid": "c4edb87e-8544-4fa4-bd1c-b0cda9a34b46",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.cwvps.eu.org",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "path": "/ws",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "a.cwvps.eu.org"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 04 - xiaohe",
-      "server": "hikvision-plus.com",
-      "server_port": 2052,
-      "uuid": "26769ac3-b34c-430a-87f8-e1de14619d25",
+      "server": "104.18.26.90",
+      "server_port": 443,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray.simspeedup.com",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "path": "/ws",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "v2ray.simspeedup.com"
         }
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 05 - xiaohe",
-      "server": "hikvision-plus.com",
-      "server_port": 2052,
-      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
+      "server": "uk3-2.998998.best",
+      "server_port": 443,
+      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "server22.9966338.xyz",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "path": "/serhrdftshg",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "server22.9966338.xyz"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 06 - xiaohe",
-      "server": "104.18.0.181",
-      "server_port": 2052,
-      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
+      "server": "104.21.6.186",
+      "server_port": 443,
+      "uuid": "c4edb87e-8544-4fa4-bd1c-b0cda9a34b46",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.cwvps.eu.org",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "path": "/ws",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "a.cwvps.eu.org"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 07 - xiaohe",
-      "server": "104.18.0.181",
+      "server": "uwu.blueknightnet.qzz.io",
       "server_port": 2052,
-      "uuid": "5744e593-1cc8-48fa-b8ca-57cd494fe35b",
-      "transport": {
-        "type": "ws",
-        "path": "/rain1226",
-        "headers": {
-          "Host": "eu02.123450908.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 08 - xiaohe",
-      "server": "104.18.0.181",
-      "server_port": 2052,
-      "uuid": "5744e593-1cc8-48fa-b8ca-57cd494fe35b",
-      "transport": {
-        "type": "ws",
-        "path": "/rain1226",
-        "headers": {
-          "Host": "eu02.123450908.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 09 - xiaohe",
-      "server": "104.18.0.181",
-      "server_port": 2052,
-      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
+      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
       "transport": {
         "type": "ws",
         "path": "/@BlueKnight_net--@BlueKnight_net",
@@ -140,9 +142,7 @@
         "🌐 其他地区 (Other) 04 - xiaohe",
         "🌐 其他地区 (Other) 05 - xiaohe",
         "🌐 其他地区 (Other) 06 - xiaohe",
-        "🌐 其他地区 (Other) 07 - xiaohe",
-        "🌐 其他地区 (Other) 08 - xiaohe",
-        "🌐 其他地区 (Other) 09 - xiaohe"
+        "🌐 其他地区 (Other) 07 - xiaohe"
       ]
     },
     {
@@ -155,9 +155,7 @@
         "🌐 其他地区 (Other) 04 - xiaohe",
         "🌐 其他地区 (Other) 05 - xiaohe",
         "🌐 其他地区 (Other) 06 - xiaohe",
-        "🌐 其他地区 (Other) 07 - xiaohe",
-        "🌐 其他地区 (Other) 08 - xiaohe",
-        "🌐 其他地区 (Other) 09 - xiaohe"
+        "🌐 其他地区 (Other) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
