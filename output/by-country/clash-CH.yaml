@@ -12,18 +12,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
 - name: 🇨🇭 瑞士 (Switzerland) 02 - xiaohe
-  server: 45.90.57.119
-  port: 8443
+  server: 140.238.213.114
+  port: 50160
   udp: true
-  type: vless
-  uuid: f5e70ce3-cfb4-4df1-b25c-d19bfae627c0
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: L6DeK_a25_ZjPKFOrQLoCPWuXi5KCIH_EcRpARmCwkI
-    short-id: 16036bbef04d0509
-  servername: twitch.tv
-  client-fingerprint: firefox
+  type: hysteria2
+  password: 84a506ca5aca505696a454d828420b3f
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: 🇨🇭 瑞士 (Switzerland) 03 - xiaohe
   server: 45.90.59.15
   port: 443
@@ -39,7 +34,7 @@ proxies:
   client-fingerprint: firefox
 - name: 🇨🇭 瑞士 (Switzerland) 04 - xiaohe
   server: 208.69.78.217
-  port: 21067
+  port: 33092
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -48,15 +43,20 @@ proxies:
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 05 - xiaohe
-  server: 140.238.213.114
-  port: 50160
+  server: 45.90.57.119
+  port: 8443
   udp: true
-  type: hysteria2
-  password: 84a506ca5aca505696a454d828420b3f
-  sni: www.bing.com
-  skip-cert-verify: true
+  type: vless
+  uuid: f5e70ce3-cfb4-4df1-b25c-d19bfae627c0
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: L6DeK_a25_ZjPKFOrQLoCPWuXi5KCIH_EcRpARmCwkI
+    short-id: 16036bbef04d0509
+  servername: twitch.tv
+  client-fingerprint: chrome
 - name: 🇨🇭 瑞士 (Switzerland) 06 - xiaohe
-  server: swz.proxyplankton.ru
+  server: 149.33.15.213
   port: 443
   udp: true
   type: vless
@@ -87,56 +87,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 09 - xiaohe
-  server: 208.69.78.217
-  port: 33141
-  udp: true
-  type: hysteria2
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 10 - xiaohe
-  server: 208.69.78.217
-  port: 21090
-  udp: true
-  type: hysteria2
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 11 - xiaohe
-  server: 208.69.78.217
-  port: 21021
-  udp: true
-  type: hysteria2
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 12 - xiaohe
-  server: 208.69.78.217
-  port: 33130
-  udp: true
-  type: hysteria2
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 13 - xiaohe
-  server: 208.69.78.217
-  port: 33152
-  udp: true
-  type: hysteria2
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
 proxy-groups:
 - name: PROXIES
   type: select
@@ -150,11 +100,6 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 06 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 07 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 08 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 09 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 10 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 11 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 12 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 13 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -168,10 +113,5 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 06 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 07 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 08 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 09 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 10 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 11 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 12 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 13 - xiaohe
 rules:
 - MATCH,PROXIES
