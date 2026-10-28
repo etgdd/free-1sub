@@ -12,12 +12,44 @@
       "password": "qwerREWQ@@"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
-      "server": "49.254.204.133",
-      "server_port": 1774,
-      "method": "aes-256-cfb",
-      "password": "1234!@#$"
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 02 (家宽) - xiaohe",
+      "server": "122.176.216.52",
+      "server_port": 443,
+      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+      "tls": {
+        "enabled": true,
+        "server_name": "app-6ada5023.deploy.meerasolution.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+        "headers": {
+          "Host": "app-6ada5023.deploy.meerasolution.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇦 加拿大 (Canada) 03 (家宽) - xiaohe",
+      "server": "sg-transit-3.nebulacloud.win",
+      "server_port": 30330,
+      "uuid": "dfa9f875-3805-49d9-8636-46b6899be24e",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "sg-transit-3.nebulacloud.win",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ca/getData"
+      }
     },
     {
       "type": "selector",
@@ -25,7 +57,8 @@
       "outbounds": [
         "auto",
         "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe"
+        "🇮🇳 印度 (India) 02 (家宽) - xiaohe",
+        "🇨🇦 加拿大 (Canada) 03 (家宽) - xiaohe"
       ]
     },
     {
@@ -33,7 +66,8 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe"
+        "🇮🇳 印度 (India) 02 (家宽) - xiaohe",
+        "🇨🇦 加拿大 (Canada) 03 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

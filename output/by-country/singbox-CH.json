@@ -12,20 +12,47 @@
       "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
-      "server": "140.238.213.114",
-      "server_port": 50160,
-      "password": "84a506ca5aca505696a454d828420b3f",
+      "server": "129.153.71.28",
+      "server_port": 28863,
+      "uuid": "fc37d72f-91bc-4d82-b52d-e57139f5685d",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
+      "server": "208.69.78.217",
+      "server_port": 33013,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
         "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
       "server": "45.90.59.15",
       "server_port": 443,
       "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
@@ -46,9 +73,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 33092,
+      "server_port": 33171,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -62,7 +89,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
       "server": "45.90.57.119",
       "server_port": 8443,
       "uuid": "f5e70ce3-cfb4-4df1-b25c-d19bfae627c0",
@@ -72,7 +99,7 @@
         "server_name": "twitch.tv",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
@@ -82,28 +109,127 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
-      "server": "149.33.15.213",
-      "server_port": 443,
-      "uuid": "054362fb-e485-4a3f-9568-4c5b0f60e074",
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
+      "server": "140.238.213.114",
+      "server_port": 50160,
+      "password": "84a506ca5aca505696a454d828420b3f",
       "tls": {
         "enabled": true,
-        "server_name": "swz.proxyplankton.ru",
+        "server_name": "140.238.213.114",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 08 - xiaohe",
+      "server": "57.129.130.57",
+      "server_port": 52014,
+      "uuid": "98286408-b683-4c0f-96c5-7e00da649d90",
+      "tls": {
+        "enabled": true,
+        "server_name": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev",
         "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 09 - xiaohe",
+      "server": "37.120.222.70",
+      "server_port": 8082,
+      "uuid": "59c3c1c7-62d0-4707-9d67-5ff9c008591c",
+      "tls": {
+        "enabled": true,
+        "server_name": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 10 - xiaohe",
+      "server": "45.77.241.190",
+      "server_port": 8441,
+      "uuid": "35325935-2cd2-4c62-aee1-4797dde0fae3",
+      "tls": {
+        "enabled": true,
+        "server_name": "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 11 - xiaohe",
+      "server": "175.41.179.37",
+      "server_port": 51262,
+      "uuid": "903fed13-8e78-4fa2-a83e-b392b289741f",
+      "tls": {
+        "enabled": true,
+        "server_name": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 12 - xiaohe",
+      "server": "142.91.101.39",
+      "server_port": 627,
+      "uuid": "a32f3ec6-d776-450e-9d97-9e2deb6c8421",
+      "tls": {
+        "enabled": true,
+        "server_name": "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 13 - xiaohe",
       "server": "208.69.78.217",
       "server_port": 2053,
       "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
@@ -112,7 +238,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -123,7 +249,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 08 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 14 - xiaohe",
       "server": "208.69.78.217",
       "server_port": 8444,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
@@ -149,7 +275,13 @@
         "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 08 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 08 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 09 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 10 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 11 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 12 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 13 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 14 - xiaohe"
       ]
     },
     {
@@ -163,7 +295,13 @@
         "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 08 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 08 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 09 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 10 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 11 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 12 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 13 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 14 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

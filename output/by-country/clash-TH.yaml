@@ -16,19 +16,6 @@ proxies:
     headers:
       Host: ais.speedtest.net
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
-  server: 45.154.26.63
-  port: 443
-  udp: true
-  type: vless
-  uuid: ff85e702-b605-4109-884d-2c1f065d0954
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: MiQ5B4j6In71lWvCi0vO_DkVSDb7sii34bh5efBMswk
-    short-id: 3c032a7e
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
   server: 38.60.254.50
   port: 22222
   udp: true
@@ -38,34 +25,8 @@ proxies:
   servername: th001.zestapp778.com
   skip-cert-verify: false
   client-fingerprint: firefox
-- name: 🇹🇭 泰国 (Thailand) 04 - xiaohe
-  server: funagfrdfs.alixxplay.com
-  port: 56415
-  udp: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-    short-id: cbd39bea0805e2
-  servername: www.kaidee.com
-  client-fingerprint: chrome
-- name: 🇹🇭 泰国 (Thailand) 05 - xiaohe
-  server: 154.21.203.106
-  port: 21033
-  udp: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-    short-id: cbd39bea0805e2
-  servername: www.kaidee.com
-  client-fingerprint: ios
-- name: 🇹🇭 泰国 (Thailand) 06 - xiaohe
-  server: 188.114.98.0
+- name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
+  server: 104.16.10.185
   port: 443
   udp: true
   type: vless
@@ -78,6 +39,19 @@ proxies:
     path: /ws
     headers:
       Host: v2ray.simspeedup.com
+- name: 🇹🇭 泰国 (Thailand) 04 - xiaohe
+  server: 45.154.26.63
+  port: 443
+  udp: true
+  type: vless
+  uuid: ff85e702-b605-4109-884d-2c1f065d0954
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MiQ5B4j6In71lWvCi0vO_DkVSDb7sii34bh5efBMswk
+    short-id: 3c032a7e
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -87,8 +61,6 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 02 - xiaohe
   - 🇹🇭 泰国 (Thailand) 03 - xiaohe
   - 🇹🇭 泰国 (Thailand) 04 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 05 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -98,7 +70,5 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 02 - xiaohe
   - 🇹🇭 泰国 (Thailand) 03 - xiaohe
   - 🇹🇭 泰国 (Thailand) 04 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 05 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 06 - xiaohe
 rules:
 - MATCH,PROXIES
