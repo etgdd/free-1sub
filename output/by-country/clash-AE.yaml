@@ -51,7 +51,7 @@ proxies:
     headers:
       Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
-  server: 157.254.38.210
+  server: 217.217.222.230
   port: 20123
   udp: true
   type: trojan
